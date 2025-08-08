@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>New Vision Hair Salon - Exceptional Hair Care Services</title>
+    <meta name="description" content="New Vision Hair Salon offers exceptional hair care services including styling, treatments, and more to help you look and feel fabulous.">
+    <meta name="keywords" content="New Vision Hair Salon, Hair Salon, Hair by Yolanda, hair care, hair styling, hair treatments, salon services">
+    <meta name="author" content="New Vision Hair Salon">
+    <link rel="canonical" href="https://www.newvisionhairsalon.com/">
+ 
+</head>
+
+
+<body>
+
+<!-- navigation area-->
+
+    <header>
+        <div class="logo">
+            <img src="Images/New Vision Hair SalonLogo.png" alt="New Vision Hair Salon logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Our Services</a></li>
+                <li><a href="gallery.html">Our Gallery</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- home content area-->
+<main class="home-page">
+    <h1>New Vision Hair Salon</h1>
+    
+    <div class="content-wrapper">
+        <div class="image-home">
+            <img src="Images/Home Page Image.jpg" alt="Home Page Image">
+        </div>
+
+        <div class="home-content">
+            <h2>Welcome to New Vision Hair Salon</h2>
+            <p>
+                At New Vision Hair Salon, we pride ourselves on delivering exceptional service with the highest quality of hair care to our clients.<br><br>
+                Our goal is to ensure you leave feeling confident and satisfied with your hairstyle.<br><br>
+                We believe everyone deserves to feel beautiful, inside and out.<br><br>
+                Our friendly and professional staff will make you feel at home from the moment you walk through the door.<br><br>
+                Contact us today and let us help you look and feel fabulous!
+            </p>
+        </div>
+    </div>
+
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScJtQJJ3joxl8kV7szP3HuDB4XJaNuLVynd1z7C66xIb2PGCg/viewform?embedded=true" width="640" height="640" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</main>
+
+<!-- footer area-->
+
+<footer>
+    <div>
+        <p>Copyright Reserved &copy; 2024 New Vision Hair Salon</p>
+        <div id="datetime"></div>
+    </div>
+</footer>
+
+<script>
+
+function updateDateTime() {
+    const now = new Date();
+    const options = {
+        weekday: 'long', 
+        year: 'numeric', 
+        month: 'long', 
+        hour: '2-digit',  
+        minute: '2-digit', 
+        second: '2-digit'
+    };
+    const formattedDateTime = now.toLocaleDateString('en-US', options)
+    document.getElementById('datetime').textContent = formattedDateTime;
+}
+
+// Update date and time every second
+setInterval(updateDateTime, 1000);
+
+// Initial call to display date and time immediately
+updateDateTime();
+
+</script>
+    
+</body>
+</html>

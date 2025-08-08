@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>New Vision Hair Salon </title>
+</head>
+
+<body>
+<!-- navigation area-->
+
+    <header>
+        <div class="logo">
+            <img src="Images/New Vision Hair SalonLogo.png" alt="New Vision Hair Salon logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Our Services</a></li>
+                <li><a href="gallery.html">Our Gallery</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+<!-- about content area-->
+
+<main class="about-page">
+    <h1>About Our Salon</h1>
+
+    <div class="about">
+        <h3>About Salon</h3>
+        <p>At New Vision Salon, we have been proudly serving the global community for over nine years. Our commitment is to provide exceptional hair care and styling services, personalized to meet your specific needs.</p>
+    </div>
+
+    <div class="about">
+        <h3>Mission</h3>
+        <p>Our mission is to enable our clients to look and feel their best by providing excellent salon services in a welcoming and inclusive environment. We strive to provide exceptional customer service, personalized consultations, and high-quality treatments that exceed our clients' expectations. Our goal is to create a space where everyone feels confident, beautiful, and valued.</p>
+    </div>
+
+    <div class="about">
+        <h3>Our Team</h3>
+        <p>Our goal is to become the first choice for people looking for specialized hair care and beauty services that meet their specific needs and preferences. As the demands of our diverse clientele evolve, we strive to stay at the forefront of the industry by constantly adding new services and areas of expertise. Every client who leaves our salon inspired and motivated becomes part of our community of creative, positive, and expressive individuals.</p>
+    </div>
+</main>
+
+<!-- footer area-->
+    <footer>
+        <p>Copyright Reserved &copy; 2024 New Vision Hair Salon</p>
+    </footer>
+
+</body>
+</html>

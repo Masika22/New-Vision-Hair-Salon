@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>New Vision Hair Salon </title>
+</head>
+
+<body>
+
+<!-- navigation area-->
+
+<header>
+    <div class="logo">
+        <img src="Images/New Vision Hair SalonLogo.png" alt="New Vision Hair Salon logo">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Our Services</a></li>
+            <li><a href="gallery.html">Our Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- contact content area-->
+
+<main class="contact-page"> 
+    <h1>Contact Us</h1>
+
+    <div class="contact-info-container">
+        <div class="contact-info">
+            <h3>Contact Details</h3>
+            <div class="info-item">
+                <img src="Images/Call_icon.png" alt="Call Icon">
+                <div>
+                    <p>+27 73 374 0854</p>
+                </div>
+            </div>
+            <div class="info-item">
+                <img src="Images/Mail_icon.png" alt="Email Icon">
+                <div>
+                    <p>bavukidimiakiese276@gmail.com</p>
+                </div>
+            </div>
+            <div class="info-item">
+                <img src="Images/Addresses_icon.png" alt="Address Icon">
+                <div>
+                    <p>40 Rodney Street<br>Port Elizabeth<br>Eastern Cape</p>
+                </div>
+            </div>
+            <div class="info-item">
+                <img src="Images/Clock_icon.png" alt="Open Hours Icon">
+                <div>
+                    <p><b>Open Hours</b><br>Monday to Saturday: 8:30 – 17:30<br>Sunday: Closed</p>   
+                </div>
+            </div>
+        </div>
+
+<!-- contact form area-->
+    <div class="contact-form-container">
+        <h2>Get in Touch</h2>
+        <form id="contactForm" action="mailto:example@example.com" method="post" enctype="text/plain">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="FullName" placeholder="Enter your full name">
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" placeholder="Enter subject">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="your message"></textarea>
+
+            <button type="submit">Send Message</button>
+            <p class="error" id="error-message"></p>
+        </form>
+    </div>
+
+    <!-- map contact area-->
+    <div class="map-container">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.645543606969!2d26.00285701573351!3d-33.97765388067628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ebd60c8c0c4f2b5%3A0x5734f152a292c8c6!2s40%20Rodney%20St%2C%20Port%20Elizabeth%2C%208001!5e0!3m2!1sen!2sza!4v1634558760453!5m2!1sen!2sza" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+        </div>
+    </div>
+
+</main>
+
+<!-- footer area-->
+    <footer>
+        <p>Copyright Reserved &copy; 2024 New Vision Hair Salon</p>
+    </footer>
+    
+</body>
+</html>
